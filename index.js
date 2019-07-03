@@ -7,3 +7,11 @@ function writeCards(arr, eventName){
     }
     return newArr
 }
+
+function countdown(int){
+
+    while(int != 0){
+        console.log(int)
+        i--
+    }
+}
