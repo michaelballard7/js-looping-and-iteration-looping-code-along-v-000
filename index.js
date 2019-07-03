@@ -9,9 +9,9 @@ function writeCards(arr, eventName){
 }
 
 function countdown(int){
+    let countdown = int
+    while(countdown > 0){
+        console.log(countdown--)
 
-    while(int != 0){
-        console.log(int)
-        int--
     }
 }
