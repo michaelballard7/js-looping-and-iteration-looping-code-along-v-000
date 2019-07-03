@@ -9,8 +9,7 @@ function writeCards(arr, eventName){
 }
 
 function countdown(int){
-    let count = int
-    while(count > 0){
+    while(int > 0){
         console.log(countdown--);
 
     }
