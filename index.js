@@ -10,6 +10,16 @@ function writeCards(arr, eventName){
 
 function countdown(int){
     while(int > 0){
-        console.log(int--);
+        console.log(int);
+        int -=1
     }
+    console.log(int)
+}
+
+function countdown( countdown ) {
+  while ( countdown > 0 ) {
+    console.log( countdown );
+    countdown -= 1;
+  }
+  console.log( countdown );
 }
