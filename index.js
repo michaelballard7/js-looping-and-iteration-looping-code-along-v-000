@@ -6,6 +6,4 @@ function writeCards(arr, eventName){
         newArr.push(`Thank you, ${arr[i]} for the wonderful ${eventName} gift.`)
     }
     return newArr
-
-
 }
