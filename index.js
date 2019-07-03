@@ -12,6 +12,6 @@ function countdown(int){
 
     while(int != 0){
         console.log(int)
-        i--
+        int--
     }
 }
